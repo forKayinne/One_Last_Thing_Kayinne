@@ -14,7 +14,7 @@ main{position:relative;z-index:1;width:min(92%,680px);margin:0 auto;padding:30px
 </style></head>
 <body><main><div class="card">
 <div class="eyebrow">uma pequena surpresa, feita com amor</div><div class="lilies" aria-label="Lírios e corações">𓍯 ✿ ♡ ✿ 𓍯</div>
-<section id="locked"><h1 class="script">For you Kayinne <span class="heart">♡</span></h1><h2>Shhh… ainda não está na hora. 🌙</h2>
+<section id="locked"><h1 class="script">For you Kayinne <span class="heart">♡</span></h1><h2>Shhh… ainda não está na hora.</h2>
 <p class="message">curiosa? 💙<br>A little story is being prepared for you — with details, nervousness, smiles and lots of love.</p><div class="divider">✧ ♡ ✧</div>
 <p class="message">Quando o relógio marcar meia-noite, volta aqui. Algumas coisas são melhores quando chegam na hora certa.</p>
 <div id="timer" class="timer" aria-label="Contagem decrescente"><div class="unit"><span class="num" id="hours">--</span><span class="label">horas</span></div><div class="unit"><span class="num" id="minutes">--</span><span class="label">minutos</span></div><div class="unit"><span class="num" id="seconds">--</span><span class="label">segundos</span></div></div>
@@ -55,7 +55,7 @@ function update(){
  document.getElementById('hours').textContent=String(Math.floor(seconds/3600)).padStart(2,'0');
  document.getElementById('minutes').textContent=String(Math.floor((seconds%3600)/60)).padStart(2,'0');
  document.getElementById('seconds').textContent=String(seconds%60).padStart(2,'0');
- dateHint.textContent='A nossa pequena surpresa abre à meia-noite. Guarda este segredo, está bem? 🩵';
+ dateHint.textContent='Open this little surpeise at midnight. Keep this secret, right? 🩵';
 }
 update();setInterval(update,1000);
 </script></body></html>
